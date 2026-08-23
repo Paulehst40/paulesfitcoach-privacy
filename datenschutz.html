@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datenschutzerklärung – Paule's Fit Coach</title>
+  <style>
+    :root {
+      --orange: #D4935A;
+      --bg: #1a1a1a;
+      --surface: #252525;
+      --text: #f0f0f0;
+      --text-muted: #a0a0a0;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 24px 16px 64px;
+    }
+
+    .container { max-width: 680px; margin: 0 auto; }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #333;
+    }
+
+    .logo {
+      width: 56px;
+      height: 56px;
+      background: var(--orange);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      flex-shrink: 0;
+    }
+
+    header h1 { font-size: 1.3rem; font-weight: 700; }
+    header p  { font-size: 0.85rem; color: var(--text-muted); margin-top: 2px; }
+
+    h2 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--orange);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 36px 0 12px;
+    }
+
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+
+    .card ul { padding-left: 20px; }
+    .card ul li { margin-bottom: 6px; }
+
+    .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+    .badge {
+      background: #1e3a2a;
+      color: #6fcf97;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 0.82rem;
+    }
+
+    .highlight {
+      background: #2a1f12;
+      border-left: 3px solid var(--orange);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+
+    a { color: var(--orange); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #333;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="logo">🏋️</div>
+    <div>
+      <h1>Paule's Fit Coach</h1>
+      <p>Datenschutzerklärung</p>
+    </div>
+  </header>
+
+  <div class="highlight">
+    Diese App speichert alle Daten ausschließlich lokal auf deinem Gerät. Es werden keine personenbezogenen Daten an den Entwickler oder Dritte übertragen.
+  </div>
+
+  <h2>1. Verantwortlicher</h2>
+  <div class="card">
+    <p>
+      Paule's Fit Coach<br>
+      E-Mail: <a href="mailto:paule3236@gmail.com">paule3236@gmail.com</a>
+    </p>
+  </div>
+
+  <h2>2. Welche Daten werden verarbeitet?</h2>
+  <div class="card">
+    <p>Die App verarbeitet ausschließlich Daten, die du selbst eingibst:</p>
+    <ul style="margin-top: 10px;">
+      <li>Trainingseinheiten (Datum, Übungen, Sätze, Gewicht, Wiederholungen)</li>
+      <li>Trainingspläne und Übungs-Bibliothek</li>
+      <li>Körperdaten (Gewicht, Körperfettanteil)</li>
+      <li>Profilbild (optional, aus deiner Galerie)</li>
+      <li>App-Einstellungen (Wochenziel, Ruhe-Timer, Farbschema)</li>
+    </ul>
+  </div>
+
+  <h2>3. Wo werden die Daten gespeichert?</h2>
+  <div class="card">
+    <p>Alle Daten werden <strong>ausschließlich lokal auf deinem Gerät</strong> gespeichert – in einer SQLite-Datenbank und den App-Einstellungen. Es gibt keinen Server, keine Cloud und keine externe Datenbank.</p>
+    <div class="badge-row">
+      <span class="badge">✓ Kein Server</span>
+      <span class="badge">✓ Keine Cloud</span>
+      <span class="badge">✓ Kein Internet erforderlich</span>
+    </div>
+  </div>
+
+  <h2>4. Datenweitergabe an Dritte</h2>
+  <div class="card">
+    <p>Es findet grundsätzlich <strong>keine Weitergabe</strong> deiner Daten an Dritte statt.</p>
+    <br>
+    <p><strong>Ko-fi (Spenden-Link):</strong> Wenn du in der App auf „Kaffee spendieren" tippst, wirst du zum externen Dienst Ko-fi (<a href="https://ko-fi.com" target="_blank">ko-fi.com</a>) weitergeleitet. Diese Weiterleitung erfolgt ausschließlich auf deine aktive Initiative. Die App selbst übermittelt dabei keine Daten. Für Ko-fi gilt deren eigene <a href="https://ko-fi.com/privacy" target="_blank">Datenschutzerklärung</a>.</p>
+  </div>
+
+  <h2>5. Berechtigungen der App</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Speicher / Medien:</strong> Nur für den Datei-Export (Backup), den Import einer Backup-Datei sowie das optionale Profilbild – jeweils nur auf deine aktive Anforderung.</li>
+      <li><strong>Internet:</strong> Die App benötigt <strong>keine</strong> Internet-Berechtigung und hat keinen Zugriff auf das Netzwerk.</li>
+    </ul>
+  </div>
+
+  <h2>6. Datenlöschung</h2>
+  <div class="card">
+    <p>Alle Daten werden vollständig gelöscht, wenn du die App deinstallierst. Einzelne Trainingseinheiten kannst du jederzeit manuell in der App löschen. Du hast jederzeit die vollständige Kontrolle über deine Daten.</p>
+  </div>
+
+  <h2>7. Deine Rechte (DSGVO)</h2>
+  <div class="card">
+    <p>Da alle Daten ausschließlich lokal auf deinem Gerät liegen und der Entwickler keinen Zugriff darauf hat, kannst du alle DSGVO-Rechte (Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit) direkt über dein Gerät oder die App wahrnehmen.</p>
+    <br>
+    <p>Bei Fragen wende dich an: <a href="mailto:paule3236@gmail.com">paule3236@gmail.com</a></p>
+  </div>
+
+  <h2>8. Minderjährige</h2>
+  <div class="card">
+    <p>Die App richtet sich nicht gezielt an Kinder unter 13 Jahren. Es werden keine Daten von Minderjährigen wissentlich erhoben.</p>
+  </div>
+
+  <h2>9. Änderungen dieser Erklärung</h2>
+  <div class="card">
+    <p>Diese Datenschutzerklärung kann bei Bedarf aktualisiert werden. Die jeweils aktuelle Version ist unter dieser URL abrufbar.</p>
+  </div>
+
+  <footer>
+    <p>Paule's Fit Coach · Zuletzt aktualisiert: August 2026</p>
+  </footer>
+
+</div>
+</body>
+</html>
